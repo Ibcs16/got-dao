@@ -1,11 +1,11 @@
 # GOT DAO - A DAO for Game of Throne lovers ⚔️
 
-Built during @_buildspace cohort for Build a DAO course
+Built during @_buildspace cohort for **Build a DAO** project
 
 ## What I've learnt:
-✅ people can mint to join DAO.
-✅ deployed governance contract + treasury.
-✅ built a dapp that lets people connect their wallet, get an NFT, see a DAO Dashboard where they can see other members + actually vote on proposals that are executed directly by governance contract.
+- ✅ people can mint to join DAO.
+- ✅ deployed governance contract + treasury.
+- ✅ built a dapp that lets people connect their wallet, get an NFT, see a DAO Dashboard where they can see other members + actually vote on proposals that are executed directly by governance contract.
 
 ## Live 🚀
 
