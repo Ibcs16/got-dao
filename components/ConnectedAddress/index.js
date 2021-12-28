@@ -29,7 +29,7 @@ const ConnectedAddress = () => {
 
   if (!address || !hasClaimedNFT) return null;
   return (
-    <div className="flex flex-row-reverse gap-[20px] items-end absolute left-6 top-6">
+    <div className="hidden lg:block lg:flex lg:flex-row-reverse gap-[20px] items-end absolute left-6 top-6">
       <Address>{address?.substr(0, 8).padEnd(12, ".")}</Address>
       <Coin src="/assets/valar_dohaeris.png" />
     </div>

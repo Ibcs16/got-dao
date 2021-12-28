@@ -1,5 +1,5 @@
 import { TitleImage } from "./styles";
 
-const MainTitle = () => <TitleImage src="/assets/got_title.png" />;
+const MainTitle = () => <TitleImage src="/assets/main_title.png" />;
 
 export default MainTitle;
