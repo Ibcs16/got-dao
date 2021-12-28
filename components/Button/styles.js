@@ -16,8 +16,8 @@ export const Container = styled.button`
 `;
 
 export const Text = styled.span`
-  font-size: 37px;
+  font-size: 26px;
   font-weight: normal;
-  line-height: 44px;
+  line-height: 32px;
   text-transform: uppercase;
 `;

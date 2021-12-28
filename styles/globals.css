@@ -17,6 +17,13 @@
   font-display: swap;
 }
 
+body {
+  background: url(/assets/couro_background.jpg),
+    linear-gradient(231.45deg, #16171b 22.62%, #1e2327 48.97%, #2a3645 90.74%);
+  background-size: cover;
+  background-blend-mode: color-dodge;
+}
+
 html,
 body {
   padding: 0;
@@ -60,4 +67,8 @@ button {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.unsupported-network {
+  color: white;
 }

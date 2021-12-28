@@ -5,7 +5,7 @@ import Button from "../Button";
 import { Coin, Container } from "./styles";
 import { bundleDropModule, sdk } from "../../thirdweb-modules";
 
-const MembershipNFT = () => {
+const MembershipNFT = ({ setHasClaimedNFT: goToDashboard }) => {
   const { address, provider } = useWeb3();
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
   const [isClaiming, setIsClaiming] = useState(false);
@@ -39,7 +39,7 @@ const MembershipNFT = () => {
       <Container>
         <Coin src="/assets/valar_dohaeris.png" />
         {/* <Button onClick={() => setIsClaiming(true)}></Button>; */}
-        <span className="underline">
+        <span className="underline cursor-pointer" onClick={goToDashboard}>
           Now you have access!
           <br />
           Click to continue

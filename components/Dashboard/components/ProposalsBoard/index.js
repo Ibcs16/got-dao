@@ -27,10 +27,11 @@ const ProposalsBoard = () => {
     }
 
     voteModule
+
       .hasVoted(proposals[0].proposalId, address)
       .then((hasVotedF) => {
-        setHasVoted(hasVotedF);
         if (hasVotedF) {
+          setHasVoted(hasVotedF);
           console.log("🥵 User has already voted");
         }
       })
@@ -73,6 +74,7 @@ const ProposalsBoard = () => {
 
           if (elem.checked) {
             voteResult.vote = vote.type;
+            console.log(vote.type);
             return;
           }
         });

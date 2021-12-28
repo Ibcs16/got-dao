@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Coin = styled.img`
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   margin-bottom: 80px;
   margin-top: 60px;
 `;

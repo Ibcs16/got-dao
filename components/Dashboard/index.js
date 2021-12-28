@@ -16,7 +16,7 @@ const Dashboard = () => {
     () => ({
       tabName: activeTab === "members" ? "Proposals" : "Members",
       arrowPosition: activeTab === "members" ? "right" : "left",
-      flexDirection: activeTab === "members" ? "" : "flex-row-reverse",
+      flexDirection: activeTab === "members" ? "" : "",
     }),
     [activeTab]
   );
@@ -25,7 +25,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className={`flex gap-[60px] items-center ${flexDirection}`}>
+      <div className={`flex flex-col gap-[60px] items-center ${flexDirection}`}>
         <ActiveTab />
         <TabSelector
           tabName={tabName}
