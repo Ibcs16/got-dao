@@ -28,7 +28,7 @@ https://got-dao.vercel.app
 <img width="1254" alt="1_connect" src="https://user-images.githubusercontent.com/18746683/147606610-71e14428-d6e5-4ce0-97a4-e6591d8e0916.png">
 
 ### Claim NFT!
-[Uploading 2_claim_NFT.png…]()
+<img width="1241" alt="2_claim_NFT" src="https://user-images.githubusercontent.com/18746683/147621542-719627fd-9fba-4cf0-b1c8-4624a386dabb.png">
 
 <img width="1234" alt="3_NFT_claimed" src="https://user-images.githubusercontent.com/18746683/147606627-35675b46-6778-4a36-9ec6-63674387e138.png">
 
@@ -40,5 +40,5 @@ board
 ![2021-12-28 15 25 19](https://user-images.githubusercontent.com/18746683/147606749-90139fa6-383f-4529-96f9-bc984b7a188c.gif)
 
 ### Voted proposals
-<img width="1265" alt="4_members" src="https://user-images.githubusercontent.com/18746683/147606653-06ab09d8-7e46-4f49-aceb-72ddb714eb3a.png">
+<img width="1236" alt="5_voted" src="https://user-images.githubusercontent.com/18746683/147621552-93d5fa80-6d4e-4177-89e4-207c2078d820.png">
 
